@@ -22,5 +22,5 @@ function calculate() {
 
     // Display result
     document.getElementById('result').className = 'alert alert-success';
-    document.getElementById('result').innerHTML = `Result of (${num1}  ${operation} ${num2}) = ${result}`;
+    document.getElementById('result').innerHTML = `Result of (${num1} ${operation} ${num2}) = ${result}`;
 }
